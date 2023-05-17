@@ -1,0 +1,30 @@
+:root{
+    --black:#232625;
+    --color2:#F0D8CC;
+    --red:#C2634F;
+    --green:#7AA39A;
+    --white:#BFBFB8;
+    --font-vintage: 'Great Vibes', cursive;
+    --font-read: Roboto, sands-serif;
+
+}
+img{
+    height: auto;
+    width:max(33.33vw, 200px);
+}
+
+.forms{
+    box-shadow: 2px 2px;
+}
+.logo{
+    background-color: #4C594F;
+}
+body{
+    display:flex;
+    margin:0;
+    padding:0;
+}
+
+.left{
+    max-width:min(600px,33);
+}
