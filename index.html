@@ -32,22 +32,41 @@
        </div>
         <form action="#" target="_blank">
             <div class="forms">
-                Let's do this! (All required)
-                <label for="first-name">First Name:</label>
-                <input type="text" id="first-name">
-                <label for="last-name">Last Name:</label>
-                <input type="text" id="last-name">
-                <label for="email">Email:</label>
-                <input type="text" id="email">
-                <label for="phone">Phone:</label>
-                <input type="tel" id="phone" pattern="[0-9]{3}-[0-9]{8}">
-                <label for="password">Password:</label>
-                <input type="password" id="password">
-                <label for="confirm-password">Confirm Password:</label>
-                <input type="password" id="confirm-password">
+                <p>Join the club!</p>
+                <div class="top">
+                    <div class="field">
+                        <label for="first-name">First Name:</label>
+                        <input type="text" id="first-name" placeholder="John">
+                    </div>
+                    <div class="field">
+                        <label for="last-name">Last Name:</label>
+                        <input type="text" id="last-name" placeholder="Citizen">
+                    </div>
+                </div>
+                <div class="mid">
+                    <div class="field">
+                        <label for="email">Email:</label>
+                        <input type="text" id="email" placeholder="johncitizen@mail.com">
+                    </div>
+                    <div class="field">
+                        <label for="phone">Phone:</label>
+                        <input type="tel" id="phone" pattern="[0-9]{3}-[0-9]{8}" placeholder="614-00123456">
+                    </div>
+                </div>
+                <div class="bottom">
+                    <div class="field">
+                        <label for="password">Password:</label>
+                        <input type="password" id="password">
+                    </div>
+                    <div class="field">
+                        <label for="confirm-password">Confirm Password:</label>
+                        <input type="password" id="confirm-password">
+                    </div>
+                </div>
             </div>
             <div class="bottom"><input type="submit" value="Sign up!" class="submit"></div>
         </form>
+        <div class="smalltext">Already have an account <a href="#">Log in</a></p>
    </div>
 
 

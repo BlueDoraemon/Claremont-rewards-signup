@@ -64,7 +64,7 @@ body{
     background-color: var(--black);
 }
 .right{
-    margin: 1.5vw;
+    padding: 1.5vw;
     display:flex;
     flex-direction: column;
 }
@@ -77,7 +77,7 @@ body{
 }
 .text:first-letter {
     float: left;
-    font-size: 2rem; /* Adjust the size as needed */
+    font-size: 2rem; 
     line-height: 1;
     margin-right: 0.4rem;
     font-style: italic;
@@ -85,10 +85,47 @@ body{
 .forms{
     box-shadow: 2px 2px;
     width:100%;
+    padding: 2vw;
+}
+
+p:first-letter{
+    float: left;
+    font-size: 1.5rem; 
+    line-height: 1;
+    margin-right: 0.4rem;
+    font-style: italic;
+}
+.forms >* {
+    display: flex;
+    justify-content: start;
+    gap: 5vw;
+
+}
+
+.forms .field{
+    display: flex;
+    flex-direction: column;
+    max-width: 25vw;
+    
 }
 .submit{
+    margin: 2vw;
     background-color: var(--green);
     color: var(--white);
     font-family: var(--font-read);
     border-radius: 4px;
+}
+.smalltext{
+    margin-left: 2vw;
+    font-size: 0.8rem;
+    margin-top:-2vw;
+}
+.field:active{
+    border:2px solid red;
+    border-radius: 5px;
+}
+.input:focus{
+}
+:link{
+    color: var(--red);
 }
