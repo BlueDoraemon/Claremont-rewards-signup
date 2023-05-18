@@ -30,38 +30,41 @@
            Sign up now to get started.
            You know you want to.
        </div>
-        <form action="#" target="_blank">
+        <form id="forms" action="#" target="_blank">
+            <p class="join">Join the club!</p>
             <div class="forms">
-                <p>Join the club!</p>
                 <div class="top">
                     <div class="field">
                         <label for="first-name">First Name:</label>
-                        <input type="text" id="first-name" placeholder="John">
-                    </div>
+                        <input type="text" id="firstname" required>
+                        <span class="spanfirstname"></span>                    </div>
                     <div class="field">
-                        <label for="last-name">Last Name:</label>
-                        <input type="text" id="last-name" placeholder="Citizen">
-                    </div>
+                        <label for="lastname">Last Name:</label>
+                        <input type="text" id="lastname" required >
+                        <span class="spanlastname"></span>                    </div>
                 </div>
                 <div class="mid">
                     <div class="field">
                         <label for="email">Email:</label>
-                        <input type="text" id="email" placeholder="johncitizen@mail.com">
+                        <input type="email" id="email" placeholder="johncitizen@mail.com" required>
+                        <span class="spanemail"></span>
                     </div>
                     <div class="field">
                         <label for="phone">Phone:</label>
-                        <input type="tel" id="phone" pattern="[0-9]{3}-[0-9]{8}" placeholder="614-00123456">
-                    </div>
+                        <input type="tel" id="phone" pattern="[0-9]{3}-[0-9]{8}" placeholder="614-00123456" required>
+                        <span class="spanphone"></span>
+                </div>
                 </div>
                 <div class="bottom">
                     <div class="field">
                         <label for="password">Password:</label>
-                        <input type="password" id="password">
+                        <input type="password" id="password" required>
+                        <span class="spanpassword"></span>
                     </div>
                     <div class="field">
-                        <label for="confirm-password">Confirm Password:</label>
-                        <input type="password" id="confirm-password">
-                    </div>
+                        <label for="confirmpassword">Confirm Password:</label>
+                        <input type="password" id="confirmpassword" onchange="confirmPassword()" required>
+                        <span class="spanconfirmpassword"></span>                    </div>
                 </div>
             </div>
             <div class="bottom"><input type="submit" value="Sign up!" class="submit"></div>
