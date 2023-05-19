@@ -6,8 +6,10 @@
 <li>
 <p><strong>Responsive Design</strong>: The form is designed to be responsive and adapt to different screen sizes. It utilizes media queries to adjust the layout and styling based on the device's width.</p>
 </li>
+<img src="respond.gif">
 <li>
 <p><strong>Input Validation</strong>: The form includes input validation to ensure that the entered data meets certain criteria. It utilizes HTML5 form validation attributes such as <code>required</code>, <code>type</code>, and <code>pattern</code> to enforce data validation on the client side.</p>
+<img src="validate.gif">
 </li>
 <li>
 <p><strong>Password Matching</strong>: The form includes a feature to check if the entered password matches the confirmed password. It uses JavaScript to compare the values of the password and confirm password fields and provides real-time feedback to the user.</p>
