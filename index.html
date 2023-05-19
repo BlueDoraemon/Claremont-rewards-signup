@@ -30,7 +30,7 @@
            Sign up now to get started.
            You know you want to.
        </div>
-        <form id="forms" action="#" target="_blank">
+        <form id="forms" action="#" target="_blank" onsubmit="return confirmPassword()">
             <p class="join">Join the club!</p>
             <div class="forms">
                 <div class="top">
@@ -63,7 +63,7 @@
                     </div>
                     <div class="field">
                         <label for="confirmpassword">Confirm Password:</label>
-                        <input type="password" id="confirmpassword" onchange="confirmPassword()" required>
+                        <input type="password" id="confirmpassword" required>
                         <span class="spanconfirmpassword"></span>                    </div>
                 </div>
             </div>

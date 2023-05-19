@@ -20,6 +20,8 @@ if (confirmPassword()){
     a.classList.add('valid');
     b.classList.remove('invalid');
     b.classList.add('valid');
+    spanA.textContent ="";
+    spanB.textContent ="";
 }
 else {
     a.classList.add('invalid');
@@ -29,6 +31,11 @@ else {
       
     spanA.textContent ="Passwords don't match Try again";
     spanB.textContent ="Passwords don't match Try again";
+    
+    const pass = document.querySelector("#password");
+    pass.addEventListener('change', ()=>{
+        passwordMatch();
+    })
 }   
 }
 //on submit check inputs are valid and not empty

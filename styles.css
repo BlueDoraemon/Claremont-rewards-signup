@@ -373,8 +373,9 @@ span{
     font-style: italic;
 }
 .left{
-    width:clamp(300px,100vw,1800px);
-    height:100vh;
+    width:clamp(200px,33.33vw,1000px);
+    height: 100vh;
+    height: 100dvh;
     object-fit: cover;
     display: flex;
     flex-direction: column;
