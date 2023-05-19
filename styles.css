@@ -363,6 +363,8 @@
   }
 
 
+
+
   /* =======Start===*/
 
 
@@ -507,6 +509,7 @@ input.valid{
 @media screen and (max-width: 600px) {
     body{
         flex-direction: column;
+        justify-content: space-between;
     }
     .left{
         width:100vw;
