@@ -12,6 +12,7 @@
     font-family: var(--font-read);
 
 }
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
 /* Document
@@ -364,7 +365,7 @@
 
 
 
-
+/* ============= */
   /* =======Start===*/
 
 
@@ -373,6 +374,7 @@ span{
     font-size: 0.7rem;
     text-align: end;
     font-style: italic;
+    height: 0.7rem;
 }
 .left{
     width:clamp(200px,33.33vw,1000px);
@@ -435,8 +437,7 @@ body{
     text-shadow: 0.1rem 0.1rem var(--brown);
   }
 .forms{
-    box-shadow: 2px 2px;
-    width:100%;
+    box-shadow: 0px 2px;
     padding-left: 2vw;
     padding-bottom: 2vh;
     display: flex;
@@ -516,13 +517,9 @@ input.valid{
         object-fit: cover;
         flex:1;
     }
-    .left>img{
-        display: block;
-        height: auto;
-        width: 100%;
-    }
     .left>.logo{
         justify-content: center;
+        align-self: center;
     }
     div.text{
         height: auto;
